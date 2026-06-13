@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Estates | Luxury Real Estate Agency</title>
+    <meta
+      name="description"
+      content="Prime Estates is a premium real estate agency offering luxury homes, expert guidance, and exceptional customer service."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.4/css/all.min.css"
+      integrity="sha512-dVtL0mYbQi4i+FDC5t2WLh7d9bKZ7g7X2bT+kHqH9fovxDz7dXwlFeCenMpLZgGOMsYwTZG4LYU0k5WZ1u9xXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">
+          <span class="brand-mark">PE</span>
+          <span class="brand-text">Prime Estates</span>
+        </a>
+        <nav class="main-nav" id="main-nav">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#properties" class="nav-link">Properties</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-controls="main-nav" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-copy animate-up">
+            <span class="eyebrow">Luxury properties & premium service</span>
+            <h1>Find Your Dream Home</h1>
+            <p>
+              Discover premium properties, trusted guidance, and the perfect place to call home.
+            </p>
+            <div class="hero-actions">
+              <a href="#properties" class="btn btn-primary">View Properties</a>
+              <a href="#contact" class="btn btn-secondary">Contact Agent</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="properties">
+        <div class="container section-head">
+          <span class="section-label">Featured Properties</span>
+          <h2>Explore our handpicked premium listings.</h2>
+        </div>
+        <div class="cards-grid">
+          <article class="property-card animate-fade">
+            <img
+              src="assets/images/villa.jpg"
+              alt="Luxury Family Villa"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="property-type">Luxury Family Villa</span>
+                <span class="property-price">$450,000</span>
+              </div>
+              <p class="property-location"><i class="fas fa-map-marker-alt"></i> Miami, Florida</p>
+              <div class="property-details">
+                <span><i class="fas fa-bed"></i> 4 Beds</span>
+                <span><i class="fas fa-bath"></i> 3 Baths</span>
+                <span><i class="fas fa-ruler-combined"></i> 3,200 sqft</span>
+              </div>
+              <a href="#contact" class="btn btn-card">View Details</a>
+            </div>
+          </article>
+
+          <article class="property-card animate-fade delay-1">
+            <img
+              src="assets/images/apartment.jpg"
+              alt="Modern City Apartment"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="property-type">Modern City Apartment</span>
+                <span class="property-price">$320,000</span>
+              </div>
+              <p class="property-location"><i class="fas fa-map-marker-alt"></i> New York City</p>
+              <div class="property-details">
+                <span><i class="fas fa-bed"></i> 2 Beds</span>
+                <span><i class="fas fa-bath"></i> 2 Baths</span>
+                <span><i class="fas fa-ruler-combined"></i> 1,400 sqft</span>
+              </div>
+              <a href="#contact" class="btn btn-card">View Details</a>
+            </div>
+          </article>
+
+          <article class="property-card animate-fade delay-2">
+            <img
+              src="assets/images/beachfront.jpg"
+              alt="Beachfront Residence"
+              loading="lazy"
+            />
+            <div class="card-body">
+              <div class="card-meta">
+                <span class="property-type">Beachfront Residence</span>
+                <span class="property-price">$780,000</span>
+              </div>
+              <p class="property-location"><i class="fas fa-map-marker-alt"></i> California Coast</p>
+              <div class="property-details">
+                <span><i class="fas fa-bed"></i> 5 Beds</span>
+                <span><i class="fas fa-bath"></i> 4 Baths</span>
+                <span><i class="fas fa-ruler-combined"></i> 4,500 sqft</span>
+              </div>
+              <a href="#contact" class="btn btn-card">View Details</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="about">
+        <div class="container about-grid">
+          <div class="about-image animate-fade">
+            <img
+              src="assets/images/about.jpg"
+              alt="Modern real estate office"
+              loading="lazy"
+            />
+          </div>
+          <div class="about-copy animate-up delay-1">
+            <span class="section-label">About Prime Estates</span>
+            <h2>Prime Estates helps families and investors find exceptional properties with confidence.</h2>
+            <p>
+              Our experienced team provides professional guidance, market expertise, and personalized service to ensure every client finds the perfect property.
+            </p>
+            <div class="stats-grid">
+              <div class="stat-card">
+                <span>10+</span>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat-card">
+                <span>500+</span>
+                <p>Properties Sold</p>
+              </div>
+              <div class="stat-card">
+                <span>1000+</span>
+                <p>Happy Clients</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container section-head">
+          <span class="section-label">Get In Touch</span>
+          <h2>Ready to start your property journey?</h2>
+        </div>
+        <div class="contact-grid">
+          <form class="contact-form animate-fade" novalidate>
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Jane Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your perfect property." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact-info animate-up delay-1">
+            <div class="info-panel">
+              <h3>Contact Information</h3>
+              <p>Reach out to our team and let us help you find the perfect property.</p>
+              <ul>
+                <li><strong>Email:</strong> su2823251@gmail.com</li>
+                <li><strong>Phone:</strong> +92 3185005228</li>
+                <li><strong>Location:</strong> Punjab, Pakistan</li>
+              </ul>
+            </div>
+            <div class="social-box">
+              <h3>Follow Us</h3>
+              <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <a href="#home" class="brand footer-brand">
+            <span class="brand-mark">PE</span>
+            <span class="brand-text">Prime Estates</span>
+          </a>
+          <p>Premium real estate agency for luxury homes, investors, and families.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#properties">Properties</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="mailto:su2823251@gmail.com">su2823251@gmail.com</a></li>
+              <li><a href="tel:+923185005228">+92 3185005228</a></li>
+              <li>Punjab, Pakistan</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Prime Estates. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
